@@ -1,0 +1,184 @@
+.logo{
+    background-image: url(/img/san_gil.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-size: 200px;
+    margin: -8px;
+    padding: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero */
+.hero{
+    background: url(img/hero-front-page-bg.jpg) center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+/* Menu Header Restaurante */
+ 
+header.main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+   
+  .header-wrap{
+    display: flex;
+    padding: 0%;
+    background-color: #006414;
+    margin: -10px;
+
+  }
+   
+  .wrap-logo-header{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+  }
+
+   
+  .nav-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+   
+  .nav-wrap-header{
+    display: flex;
+    flex-basis: 50%;
+  }
+   
+  ul.main-menu{
+    display: flex;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+   
+  li.menu-item{
+    margin: .75rem;
+    display: flex;
+  }
+   
+  li.menu-item a{
+    padding: .5rem 1rem;
+    color:#98ff96;
+    font-size: 150%;
+  }
+   
+  li.menu-item a:hover{
+    color:#009929;
+  }
+   
+  i.toggle-menu{
+    display: none;
+    background-color: #fff;
+    border: none;
+    z-index: 9999;
+  }
+   
+  i.toggle-menu img{
+    width: 27px;
+    z-index: 99;
+  }
+   
+  input#check{
+    display: none;
+  }
+
+  @media (min-width:880px){
+    .header-wrap{
+      padding: .5rem 5rem;
+    }
+  }
+   
+  @media (max-width:768px){
+    header{
+      margin-bottom: 4rem;
+    }
+    .header-wrap{
+      position: fixed;
+      width: 100%;
+      background-color: #fff;
+      padding: 0;
+      top: 0;
+      z-index: 9999;
+      height: 60px;
+    }
+    .wrap-logo-header{
+      position: fixed;
+      z-index: 999;
+      top: 3%;
+      left: 3%;
+    }
+    i.toggle-menu{
+      display: flex;
+    }
+    ul.main-menu,#nav-main-contact{
+      display: none;
+      left: 0;
+      margin: 0;
+      padding: 0;
+    }
+    ul.main-menu{
+      position: fixed;
+      background-color: #fff;
+    }
+    label.checkbtn{
+      position: fixed;
+      right: 3%;
+      top: 3%;
+      z-index: 9999;
+    }
+    #check:checked ~ ul{
+      display: flex;
+      z-index: 9;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      top: 0;
+      font-size: 2rem;
+    }
+   
+  }
+  
