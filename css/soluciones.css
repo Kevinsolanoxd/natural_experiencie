@@ -1,27 +1,23 @@
 @import url('https://fonts.cdnfonts.com/css/naturalist');
-@import url('https://fonts.cdnfonts.com/css/reckfield-free');
 
 .logo{
     background-image: url(/img/san_gil.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #07b937;
+    color: #259944;
     background-size:cover;
-    font-size:200px;
+    font-size: 200px;
     margin: -8px;
-    padding: 15%;
+    padding: 150px;
     font-family: 'Naturalist', sans-serif;
-
-
 }
 
 
 
 .sub{
-  color: #feccff;
-  font-size: 160%;
-  font-family: 'RECKFIELD-Free', sans-serif;
-                                                
+  color: #fff;
+  font-size: 37px;
+  font-family: 'Naturalist', sans-serif ;
 }
 
 
@@ -33,144 +29,6 @@ body{
 }
 
 
-.titulo{
-  font-family: 'Naturalist', sans-serif ;
-  font-size: 700%;
-  color:  #07b937;
-}
-
-.foto{
-  width: 50%;
-  height: 50%;
-  
-}
-.letra{
-  font-size: 2%;
-  color: #fff;
-}
-
-
-body{
-	margin: 8px;
-}
-
-
-
-.center-align{
-	margin: 0 auto;
-	width: 1100px;
-}
-
-.black{color: black;}
-.white{color: white;}
-
-.section-columns > div{
-	display: inline-block;
-	vertical-align: top;
-	width: 49%;
-}
-
-.section-columns h2{
-	font-size: 72px;
-}
-
-#intro-container .section-columns h2{
-	padding-top: 120px;
-	padding-bottom: 30px;
-}
-
-.section-columns h3{
-	font-size: 26px;
-	font-weight: lighter;
-	line-height: 40px;
-}
-.section-columns p{
-	font-weight: lighter;
-	font-size: 16px;
-	line-height: 30px;
-	padding-bottom: 10px;
-}
-
-
-
-
-
-.section-columns #bio{
-	height: 600px;
-}
-
-#work, #work02, #work03, #work04{
-	background-repeat: no-repeat;
-	background-size: 750px;
-	background-position: right center;
-	height: 600px;
-	padding-top: 150px;
-	margin-top: -50px;	
-}
-
-
-#footer{
-	margin-top: -50px;
-	padding-top: 50px;
-	height: 400px;
-
-	background-color: #000;
-	background-size: 100%;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-}
-
-#footer h3{color: white; padding-top: 70px; margin: 0; font-size: 25px;}
-#footer p {color: rgb(238, 238, 238); padding-bottom: 30px; font-size: 25px;}
-
-.rectangle{
-	height: 100px;
-	margin-top: -50px;
-}
-.bg-white{
-	background-color: white;
-}
-.bg-gray{
-	background-color: #666;
-}
-.bg-black{
-	background-color: #000;
-}
-
-
-
-.skew-left{
-	transform: skewY(-4deg);
-}
-.skew-right{
-	transform: skewY(4deg);
-}
-
-.btn{
-	border: solid 1px;
-	padding: 20px 40px;
-	text-decoration: none;
-	margin-right: 10px;
-}
-.btn-black{
-	border-color: black;
-	color: black;
-}
-.btn-black:hover{
-	background-color: black;
-	border-color: white;
-	color: white;
-}
-.btn-white{
-	border-color: white;
-	color: white;
-}
-
-.btn-white:hover{
-	background-color: white;
-	border-color: black;
-	color: black;
-}
 
 
 
@@ -399,7 +257,6 @@ header.main-header{
     font-size: 31px;
     font-weight: 100;
   }
-
 
 
 
